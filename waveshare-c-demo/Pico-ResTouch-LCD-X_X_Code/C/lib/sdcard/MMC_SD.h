@@ -1,6 +1,7 @@
 #ifndef _MMC_SD_H_
 #define _MMC_SD_H_	
 #include "stdio.h"
+#include <stdint.h>
  								    	 
 #define SD_TYPE_ERR     0X00
 #define SD_TYPE_MMC     0X01
@@ -40,7 +41,7 @@
 #define MSD_PARAMETER_ERROR        0x40
 #define MSD_RESPONSE_FAILURE       0xFF
 
-typedef unsigned char uint8_t;
+//typedef unsigned char uint8_t;
 
 extern uint8_t  SD_Type;
 
